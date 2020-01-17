@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) {
+	.links {
+		align-self: flex-end;
+	}
+}
+
+.objective-content p,
+.title ul {
+	font-size: 17px;
+	line-height: 1.5;
+	padding-left: 30px;
+	text-align: justify;
+}
+
+header {
+	background: grey;
+	ul {
+		list-style: none;
+		display: flex;
+		font-size: 18px;
+		li {
+			padding: 10px;
+			color: white;
+		}
+	}
+}
+
+body {
+	margin: 0px;
+}

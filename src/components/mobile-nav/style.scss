@@ -1,0 +1,81 @@
+@import "../../variables.scss";
+.sidenav ul {
+	padding: 0;
+	margin: 0;
+	li {
+		list-style: none;
+		padding: 0 10px;
+		margin: 10px 0;
+		cursor: pointer;
+		a {
+			font-size: 18px;
+			color: rgba(255, 255, 255, 0.6);
+			text-decoration: none;
+			 :hover {
+				color: $formal-white;
+			}
+		}
+	}
+}
+
+.hamburger,
+.sidenav {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.hamburger,
+	.sidenav {
+		display: block;
+	}
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: $mid-blue;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+		a {
+			padding: 8px 8px 8px 8px;
+			text-decoration: none;
+			font-size: 25px;
+			color: $formal-white;
+			display: block;
+			transition: 0.3s;
+			 :hover {
+				color: #f1f1f1;
+			}
+		}
+		.closebtn {
+			position: absolute;
+			top: 0;
+			right: 5px;
+			font-size: 28px;
+			margin-left: 50px;
+			background: transparent;
+			border-color: transparent;
+			color: $formal-white;
+			outline: transparent;
+		}
+	}
+	@media screen and (max-height: 450px) {
+		.sidenav {
+			padding-top: 15px;
+		}
+		.sidenav a {
+			font-size: 18px;
+		}
+	}
+}
+
+.hamburger {
+	position: absolute;
+	padding: 20px;
+	font-size: 30px;
+	cursor: pointer;
+	color: $mid-blue;
+}

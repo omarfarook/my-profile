@@ -1,0 +1,45 @@
+@import "../../variables.scss";
+.contact-container {
+	width: 80%;
+	float: right;
+	padding: 60px;
+	box-sizing: border-box;
+	h2 {
+		font-size: 38px;
+		font-weight: 500;
+		margin: 15px 0;
+	}
+	span {
+		font-size: 16px;
+	}
+	address ul {
+		list-style: none;
+		/* margin: 0; */
+		padding: 0;
+		li {
+			padding: 10px 0;
+			span {
+				width: 20%;
+				display: inline-block;
+			}
+		}
+	}
+	.links {
+		display: flex;
+		flex-direction: column;
+		li a {
+			text-decoration: none;
+			color: $mid-blue;
+			 :visited {
+				color: $mid-blue;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.contact-container {
+		width: 100%;
+		padding: 60px 20px;
+	}
+}

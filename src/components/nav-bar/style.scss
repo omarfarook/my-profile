@@ -1,0 +1,52 @@
+@import "../../variables.scss";
+.nav-container {
+	width: 20%;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background: $mid-blue;
+	.pro_pic {
+		margin: 0 auto;
+		padding-top: 40px;
+		img {
+			height: 200px;
+			max-width: 200px;
+			width: 100%;
+			border-radius: 50%;
+		}
+	}
+	.name_role {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		.name {
+			font-size: 24px;
+			color: $formal-white;
+		}
+		.role {
+			font-size: 18px;
+			color: $formal-white;
+		}
+	}
+	ul li {
+		list-style: none;
+		padding: 0 20px;
+		margin: 25px 0;
+		cursor: pointer;
+		a {
+			font-size: 18px;
+			color: rgba(255, 255, 255, 0.6);
+			text-decoration: none;
+			&:hover {
+				color: $formal-white;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-container {
+		display: none;
+	}
+}
