@@ -15,8 +15,10 @@
 			padding: 0;
 			margin: 0;
 		}
-		.links {
-			text-align: center;
+		@media only screen and (max-width:768px) {
+			.links {
+				text-align: center;
+			}
 		}
 		h1,
 		h3 {
@@ -73,6 +75,8 @@
 			.role {
 				margin: 0;
 				font-size: 17px;
+				display: flex;
+    justify-content: space-between;
 			}
 			span {
 				color: $mid-blue;
