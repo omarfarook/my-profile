@@ -21,15 +21,20 @@
 		display: flex;
 		flex-direction: column;
 		.name {
-			font-size: 24px;
-			color: $formal-white;
+			font-size: 23px;
+			color: white;
+			text-transform: uppercase;
 		}
 		.role {
-			font-size: 18px;
-			color: $formal-white;
+			font-size: 17px;
+			color: white;
+			font-weight: 100;
+			padding: 10px 0;
+			text-transform: uppercase;
 		}
 	}
 	ul li {
+		position: relative;
 		list-style: none;
 		padding: 0 20px;
 		margin: 25px 0;
@@ -40,6 +45,40 @@
 			text-decoration: none;
 			&:hover {
 				color: $formal-white;
+				span {
+					display: inline;
+				}
+			}
+		}
+		span {
+			position: absolute;
+			display: none;
+			top: 2px;
+			padding-left: 5px;
+		}
+	}
+	.get-in-touch {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		span {
+			color: rgba(255, 255, 255, 0.6);
+			padding-left: 20px;
+			font-size: 12px;
+			line-height: 1
+		}
+		ul {
+			list-style: none;
+			display: flex;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: space-evenly;
+			padding: 0;
+    
+			li {
+				padding: 0;
+				margin: 0;
 			}
 		}
 	}
