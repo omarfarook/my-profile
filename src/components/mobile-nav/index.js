@@ -25,7 +25,7 @@ class MobileNav extends Component {
 
     render() {
         return (
-            <Fragment>
+            <section>
                 <div id="mySidenav" className="sidenav" ref={node => this.node = node}>
                     <button className="closebtn" onClick={this.closeNav}>&times;</button>
                     <ul>
@@ -35,7 +35,7 @@ class MobileNav extends Component {
                     </ul>
                 </div>
                 <span className="hamburger" onClick={this.openNav}>&#9776;</span>
-            </Fragment>
+            </section>
         )
     }
 }

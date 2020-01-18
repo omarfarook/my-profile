@@ -50,7 +50,7 @@ class MyCv extends Component {
                                 <p>IT Analyst at TCS and following are accounts/clients’ projects that I have worked upon:</p>
                             </div>
                             <div>
-                                <div className="role"><span>Sr. Frontend Developer</span> | Leading Australian Retailer</div>
+                                <div className="role"><span>Sr. Frontend Developer</span> | MYER</div>
                                 <span className="duration">Aug 2018 - Present</span>
                                 <div>
                                     <ul>
@@ -63,7 +63,7 @@ class MyCv extends Component {
                                 </div>
                             </div>
                             <div>
-                                <div className="role"><span>Frontend Developer</span> | Leading US Retailer</div>
+                                <div className="role"><span>Frontend Developer</span> | BJ's</div>
                                 <span className="duration">Jul 2017 – Jul 2018</span>
                                 <div>
                                     <ul>
@@ -76,7 +76,7 @@ class MyCv extends Component {
                                 </div>
                             </div>
                             <div>
-                                <div className="role"><span>Frontend Developer</span> | Leading US Retailer</div>
+                                <div className="role"><span>Frontend Developer</span> | DSG</div>
                                 <span className="duration">Nov 2015 – Jun 2017</span> 
                                 <div>
                                     <ul>
