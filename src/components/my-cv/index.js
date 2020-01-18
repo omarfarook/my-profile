@@ -45,12 +45,13 @@ class MyCv extends Component {
                         <section className="title experience-content">
                             <h1>Work Experience</h1>
                             <div>
-                                <div className="role"><span>Sr. Frontend Developer | Tata Consultancy Services</span><span className="duration">AUG 2015 - PRESENT</span></div>
+                                <div className="role"><span>Sr. Frontend Developer</span> | Tata Consultancy Services</div>
+                                <span className="duration">AUG 2015 - PRESENT</span>
                                 <p>IT Analyst at TCS and following are accounts/clients’ projects that I have worked upon:</p>
                             </div>
                             <div>
-                                <div className="role"><span>Sr. Frontend Developer | MYER</span><span className="duration">Aug 2018 - Present</span></div>
-                                
+                                <div className="role"><span>Sr. Frontend Developer</span> | MYER</div>
+                                <span className="duration">Aug 2018 - Present</span>
                                 <div>
                                     <ul>
                                         <li>Designs, develops and relaunches responsive e-commerce sites of the client</li>
@@ -62,7 +63,8 @@ class MyCv extends Component {
                                 </div>
                             </div>
                             <div>
-                                <div className="role"><span>Frontend Developer | BJ's</span><span className="duration">Jul 2017 – Jul 2018</span></div>
+                                <div className="role"><span>Frontend Developer</span> | BJ's</div>
+                                <span className="duration">Jul 2017 – Jul 2018</span>
                                 <div>
                                     <ul>
                                         <li>Design and Developed entire shopping path of Business to business application for the client.</li>
@@ -74,7 +76,8 @@ class MyCv extends Component {
                                 </div>
                             </div>
                             <div>
-                                <div className="role"><span>Frontend Developer | DSG</span><span className="duration">Nov 2015 – Jun 2017</span> </div>
+                                <div className="role"><span>Frontend Developer</span> | DSG</div>
+                                <span className="duration">Nov 2015 – Jun 2017</span> 
                                 <div>
                                     <ul>
                                         <li>Designs, develops and relaunches responsive B2C e-commerce sites of the client</li>
