@@ -9,7 +9,7 @@ class ContactMe extends Component {
         return (
             <section className="contact-container">
                 <h2>Contact Me</h2>
-                <span>I am available to hire ...</span>
+                <span>I am available to be hired.</span>
                 <address>
                     <ul className="links">
                         <li><span>E-mail: </span><a href="mailto:mohamedomarfarookvm@gmail.com"><span><IoIosMail size={20} /></span>md.omarfarook.v.m@gmail.com</a></li>
